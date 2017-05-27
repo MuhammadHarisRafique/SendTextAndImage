@@ -12,6 +12,7 @@
 		4DC220A01ED9799300F8387C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC2209E1ED9799300F8387C /* Main.storyboard */; };
 		4DC220A21ED9799300F8387C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC220A11ED9799300F8387C /* Assets.xcassets */; };
 		4DC220A51ED9799300F8387C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC220A31ED9799300F8387C /* LaunchScreen.storyboard */; };
+		4DC220AD1ED97BB100F8387C /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DC220AC1ED97BB100F8387C /* image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4DC220A11ED9799300F8387C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DC220A41ED9799300F8387C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DC220A61ED9799300F8387C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC220AC1ED97BB100F8387C /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				4DC2209A1ED9799300F8387C /* AppDelegate.swift */,
+				4DC220AC1ED97BB100F8387C /* image.png */,
 				4DC2209C1ED9799300F8387C /* ViewController.swift */,
 				4DC2209E1ED9799300F8387C /* Main.storyboard */,
 				4DC220A11ED9799300F8387C /* Assets.xcassets */,
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DC220A51ED9799300F8387C /* LaunchScreen.storyboard in Resources */,
+				4DC220AD1ED97BB100F8387C /* image.png in Resources */,
 				4DC220A21ED9799300F8387C /* Assets.xcassets in Resources */,
 				4DC220A01ED9799300F8387C /* Main.storyboard in Resources */,
 			);
@@ -265,6 +269,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8GWSL85966;
 				INFOPLIST_FILE = SendWhatsPic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HigherVisibility.SendWhatsPic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,6 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8GWSL85966;
 				INFOPLIST_FILE = SendWhatsPic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HigherVisibility.SendWhatsPic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +310,7 @@
 				4DC220AB1ED9799300F8387C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
